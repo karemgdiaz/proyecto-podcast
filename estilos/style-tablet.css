@@ -1,16 +1,6 @@
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-}
-html {
-  scroll-behavior: smooth;
-}
-.borde {
-  border: 1px solid greenyellow;
-}
-/* DESKTOP */
+@media only screen and (min-width: 401px) and (max-width: 899px) {
+
+  /* DESKTOP */
 .desktop-menu {
   display: flex;
   padding: 1em;
@@ -122,18 +112,9 @@ main .rectangulo {
   letter-spacing: 0;
   line-height: 42px;
   font-weight: 400;
-  }
-  section .iconos-footer i {
-    color: #000000;
-  }
-  section .iconos-footer i:hover {
-    transform: translateY(-25%);
-  }
-
-/*MQ DESKTOP*/
-@media screen and (min-width: 900px) {
+}
   .header {
-    margin-left: 7.5em;
+    margin-left: 3.5em;
     margin-top: 1.5em;
   }
   /*HEADER*/
@@ -203,7 +184,8 @@ main .rectangulo {
     margin-top: 7%;
   }
   .nosotros img {
-    width: 22em;
+    width: 17em;
+    transform: translateY(2em);
   }
   .nosotros-texto h2 {
     padding-bottom: 0.2em;
@@ -289,7 +271,7 @@ main .rectangulo {
     font-weight: 400;
     letter-spacing: 0;
     text-align: center;
-    margin-top: -30%;
+    margin-top: -45%;
   }
   footer .novedades {
     display: flex;
@@ -347,37 +329,12 @@ main .rectangulo {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-  }  
-}
-@media screen and (min-width: 900px) {
-  .redes .fondo-redes {
-    transform: translateY(80%);
   }
-}
-@media screen and (min-width: 1000px) {
-  .redes .fondo-redes {
-    transform: translateY(140%);
+  section .iconos-footer i {
+    color: #000000;
+  }
+  section .iconos-footer i:hover {
+    transform: translateY(-30%);
   }
 }
 
-@media screen and (min-width: 1200px) {
-  .redes .fondo-redes {
-    transform: translateY(180%);
-  }
-}
-@media screen and (min-width: 1280px) {
-  .redes .fondo-redes {
-    transform: translateY(200%);
-  }
-}
-
-@media screen and (min-width: 1300px) {
-  .redes .fondo-redes {
-    transform: translateY(300%);
-  }
-}
-@media screen and (min-width: 1500px) {
-  .redes .fondo-redes {
-    transform: translateY(400%);
-  }
-}
